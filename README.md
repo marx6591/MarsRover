@@ -79,3 +79,8 @@ Then enter the commands: MXMRMMRMRRM
 An invalid command message will appear, ignore the wrong command and continue with the execution.
 
 The expected output is X = 5, Y = 1, posicionamento = E
+
+## Authors
+
+* **Marcos Vinicios Rodovalho** - [Marx6591](https://github.com/marx6591)
+
