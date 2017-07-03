@@ -36,30 +36,33 @@ The rest of the input is information pertaining to the rovers that have been dep
 The position is made up of two integers and a letter separated by spaces, corresponding to the x and y co-ordinates and the rover's orientation. Each rover will be finished sequentially, which means that the second rover mont. start to move until the first one has finished moving.
 
 ### For the first robot, we will test the best way, without contradicting the code.
-
+```
 Enter the coordinates: 1 2 N
+```
+```
 Then enter the commands: LMLMLMLMM
-
+```
 The expected output is X = 1, Y = 3, positioning = N
 
 ### For the second robot, we will test wrong data entry
-
+```
 Enter the coordinates: 1 p N
-
+```
 An Invalid Input message will appear because the second data must be a number, not a letter.
-
+```
 Enter the coordinates: 1 2 X
-
+```
 An Invalid Entry message will appear because the third data must be a number representing one of the cardinal points (North = N, South = S, East = E, West = W)
-
+```
 Enter the coordinates: 8 2 N
-
+```
 An Invalid Input message will appear because the first data must be a number that is within the maximum plateau size.
-
+```
 Enter the coordinates: 1 2 N
-
+```
+```
 Enter Commands: MMMM
-
+```
 An error message will appear saying that the robot does not move in one of the commands, because it arrives at the limit of the plateau, and there is no room to walk.
 
 The expected output is X = 1, Y = 5, posicionamento = N
