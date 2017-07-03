@@ -52,7 +52,9 @@ An Invalid Input message will appear because the second data must be a number, n
 ```
 Enter the coordinates: 1 2 X
 ```
-An Invalid Entry message will appear because the third data must be a number representing one of the cardinal points (North = N, South = S, East = E, West = W)
+An Invalid Entry message will appear because the third data must be a number representing one of the cardinal points 
+
+(North = N, South = S, East = E, West = W)
 ```
 Enter the coordinates: 8 2 N
 ```
@@ -68,11 +70,12 @@ An error message will appear saying that the robot does not move in one of the c
 The expected output is X = 1, Y = 5, posicionamento = N
 
 ### For the third test we will test sending a wrong command
-
+```
 Enter the coordinates: 3 3 E
-
+```
+```
 Then enter the commands: MXMRMMRMRRM
-
+```
 An invalid command message will appear, ignore the wrong command and continue with the execution.
 
 The expected output is X = 5, Y = 1, posicionamento = E
